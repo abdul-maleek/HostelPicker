@@ -37,7 +37,7 @@
       if (password.value.trim() === '') {
         passwordError.textContent = 'Password is required.';
         return false;
-      } else if (password.value.length < 6) {
+      } else if (password.value.length < 8) {
         passwordError.textContent = 'Password must be at least 8 characters.';
         return false;
       } else {
@@ -46,4 +46,4 @@
       }
     }
   });
-  
+    
